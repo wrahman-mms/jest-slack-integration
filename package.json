@@ -1,6 +1,6 @@
 {
-  "name": "jest-slack-integration",
-  "version": "1.0.17",
+  "name": "onepub-jest-slack-integration",
+  "version": "1.0.0",
   "description": "This script allows you to post test results to slack",
   "main": "index.js",
   "scripts": {
@@ -8,15 +8,15 @@
     "package": "babel './' --out-dir 'lib' --presets=env --ignore 'node_modules'",
     "postpackage": "cd lib && yarn"
   },
-  "author": "Jameel Mukadam <Jameel@JameelMukadam.com> (https://www.JameelMukadam.com)",
+  "author": "Onepub",
   "license": "ISC",
   "dependencies": {
-    "bugsnag": "^2.4.3",
-    "read-pkg": "^4.0.1"
+    "bugsnag": "2.4.3",
+    "read-pkg": "4.0.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "rimraf": "^2.6.1"
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "rimraf": "2.6.1"
   }
 }
